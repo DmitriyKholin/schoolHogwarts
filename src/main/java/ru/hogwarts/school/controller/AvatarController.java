@@ -21,6 +21,7 @@ import java.util.Collection;
 @RequestMapping("/avatar")
 public class AvatarController {
 
+
     private final AvatarService avatarService;
 
     public AvatarController(AvatarService avatarService) {
