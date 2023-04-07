@@ -23,5 +23,6 @@ public class InfoController {
     @GetMapping("/getSum")
     public ResponseEntity<Integer> getSum() {
         return ResponseEntity.ok(infoService.getSum());
+
     }
 }
